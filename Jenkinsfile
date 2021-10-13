@@ -7,13 +7,12 @@ pipeline {
             steps {
                 echo 'Building..'
                 echo 'Prueba de santiago'
-                
+                echo 'Prueba de santiag'
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing..'
-                
             }
         }
         stage('Deploy') {
