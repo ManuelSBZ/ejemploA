@@ -1,2 +1,1 @@
-fggqaaqdas
-pokwepokdw
+fggqaaqd
