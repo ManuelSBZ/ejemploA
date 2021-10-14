@@ -9,6 +9,9 @@ pipeline {
             }
         }
         stage('Test') {
+            script{
+                ls
+            }
             steps {
                     withAWS(credentials:'manuel1', region: 'us-east-2') {
                         AWS("s3 ls")
