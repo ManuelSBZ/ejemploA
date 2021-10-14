@@ -13,7 +13,7 @@ pipeline {
             steps {
                     echo "test"
                     withAWS(credentials: '99cd9711-d754-42fa-9eb6-dc3da9ac26ca', region: 'us-east-2') {
-                        sh 'venv/bin/sam s3 ls'
+                        sh 'aws s3 ls'
                     }
             }
         }
