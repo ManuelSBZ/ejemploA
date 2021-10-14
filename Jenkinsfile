@@ -7,7 +7,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 echo 'Prueba de santiago'
-                sh ls -ll
+                bash ls -ll
             }
         }
         stage('Test') {
